@@ -1,0 +1,19 @@
+# Microdatos: no se versionan (tamaño y términos de uso de la OCDE, la Agencia y el Mineduc)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+*.sav
+*.SAV
+*.rds
+*.rar
+*.zip
+
+# Las tablas (output/tables) y las figuras (output/figures) sí se versionan:
+# son agregados y permiten leer los resultados sin correr nada.
+
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
